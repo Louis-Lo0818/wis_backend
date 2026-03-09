@@ -603,7 +603,7 @@ All endpoints return standardized error responses:
 
 ---
 
-### Day 2: March 9, 2026 — Core Services & Business Logic
+### Day 1: March 9, 2026 — Core Services & Business Logic
 
 **🧠 Learning:**
 - Discovered that business logic (e.g., "transfer only if sufficient quantity") belongs in **Service**, not Controller
@@ -633,7 +633,7 @@ All endpoints return standardized error responses:
 
 ---
 
-### Day 3: March 8, 2026 — REST Controllers & Error Handling
+### Day 1: March 9, 2026 — REST Controllers & Error Handling
 
 **🧠 Learning:**
 - Understood Spring Controller role: deserialize HTTP → DTO, validate with `@Valid` + `BindingResult`, call service, wrap response
@@ -665,7 +665,7 @@ All endpoints return standardized error responses:
 
 ---
 
-### Day 4: March 9, 2026 — Documentation & Testing Refinement
+### Day 1: March 9, 2026 — Documentation & Testing Refinement
 
 **🧠 Learning:**
 - Understood how H2 in-memory database speeds up tests: no I/O, transactions rolled back after each test
@@ -696,7 +696,7 @@ All endpoints return standardized error responses:
 
 ---
 
-### Day 5: March 9, 2026 — Blueprint & Roadmap Planning
+### Day 2: March 10, 2026 — Blueprint & Roadmap Planning
 
 **🧠 Learning:**
 - Understood production-readiness gap: current API has no auth, pagination, audit logging, or alerts
